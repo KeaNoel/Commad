@@ -1,0 +1,59 @@
+本地：
+-------------------------------------------------------
+git clone + 远程地址  --clone 项目到本地
+
+push远程(github)
+-------------------------------------------------------
+git init --本地初始化.git文件
+
+git add  --添加文件
+
+git commit -m "" --提交并加上id或message
+
+git remote add origin + 地址 --根据远程地址与本地建立连接
+
+git push origin master  --push 到远程
+
+版本回退
+-------------------------------------------------------
+git log    --查看日志 
+
+git reset --hard +id  --根据commit id 回退版本
+
+git reflog  --查看历史提交
+
+git diff  --查看版本之间的差异
+
+标签
+-------------------------------------------------------
+git tag            --查看标签   
+
+git tag tagname    --创建标签 tagname
+
+git tag -d tagname   --删除标签 tagame
+
+git push orgin tagName  --push 标签 tagName到远程
+
+git checkout tagName --根据标签 tag 回退版本
+
+分支
+-------------------------------------------------------
+git branch  --查看分支
+ 
+git checkout -b 或 git switch -c  --创建并切换分支
+
+git branch branchName  --创建分支branchName
+
+git bracnh -d branchName  --删除分支 branchName
+
+git checkout branch  --切换到bran分支
+
+git merge branch  --合并到bran分支
+
+常用
+-------------------------------------------------------
+git rm file --删除文件
+
+git checkout --替换，一键还原
+
+
